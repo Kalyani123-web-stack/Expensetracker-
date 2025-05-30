@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Expense Chart</title>
+</head>
+<body>
+    <h2>Expense Chart</h2>
+    {{ chart_html|safe }}
+    <br>
+    <a href="{% url 'expense_list' %}">Back to Expenses</a>
+</body>
+</html>
